@@ -1,0 +1,17 @@
+{
+  "name": "portfolio_project",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "homepage": "https://ProxyLinks.github.io/My_Portfolio_Project",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Victoria Adekunle",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "node-sass": "^8.0.0"
+  }
+}
